@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\rolentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\rolentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\productoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\productoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\controllers\\producto2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\controllers\\producto2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\asp-innerjoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\asp-innerjoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,118 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioEntity.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T14:12:03.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RolEntity.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\RolEntity.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\RolEntity.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\RolEntity.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Models\\RolEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T14:11:58.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoEntity.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\ProductoEntity.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\ProductoEntity.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\ProductoEntity.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Models\\ProductoEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T14:02:53.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\appsettings.json",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
-              "RelativeToolTip": "Asp-InnerJoin\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-20T13:59:44.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Program.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:59:21.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Context\\AppDbContext.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAADwv1IAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:57:24.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Producto2Controller.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:26:39.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Asp-InnerJoin\\Controllers\\ProductoController.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "Asp-InnerJoin\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wEIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:19:36.07Z",
+              "WhenOpened": "2025-02-20T16:21:21.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Asp-InnerJoin.http",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Asp-InnerJoin.http",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Asp-InnerJoin.http",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Asp-InnerJoin.http",
-              "RelativeToolTip": "Asp-InnerJoin\\Asp-InnerJoin.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-20T13:15:16.32Z",
+              "DocumentIndex": 0,
+              "Title": "Producto2Controller.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Controllers\\Producto2Controller.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\Producto2Controller.cs*",
+              "RelativeToolTip": "Asp-InnerJoin\\Controllers\\Producto2Controller.cs*",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAqwMoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:19:36.012Z",
               "EditorCaption": ""
             }
           ]

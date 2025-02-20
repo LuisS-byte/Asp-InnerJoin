@@ -346,6 +346,131 @@
         }
       }
     },
+    "/api/Producto2/ProductosConUsuarioYrol": {
+      "get": {
+        "tags": [
+          "Producto2"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Producto2/ProductosConUsuarioEmailYrol": {
+      "get": {
+        "tags": [
+          "Producto2"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Producto2/ProductosConUsuarioEmailYrolWithIdProducto/{id}": {
+      "get": {
+        "tags": [
+          "Producto2"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -388,6 +513,44 @@
   },
   "components": {
     "schemas": {
+      "ProductoDTO": {
+        "type": "object",
+        "properties": {
+          "iD_PRODUCTO": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "proD_NOMBRE": {
+            "type": "string",
+            "nullable": true
+          },
+          "proD_PRECIO": {
+            "type": "number",
+            "format": "double"
+          },
+          "proD_FECHA_CREACION": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "iD_USUARIO": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuarioNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_ROl": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rolNombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ProductoEntity": {
         "type": "object",
         "properties": {
