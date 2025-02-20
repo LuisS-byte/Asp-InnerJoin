@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp-InnerJoin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00a029c85d100ad1777dc7c19f41980924e0fa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp-InnerJoin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp-InnerJoin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
