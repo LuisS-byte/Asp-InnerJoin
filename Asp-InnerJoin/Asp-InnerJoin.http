@@ -1,0 +1,6 @@
+@Asp_InnerJoin_HostAddress = http://localhost:5118
+
+GET {{Asp_InnerJoin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
