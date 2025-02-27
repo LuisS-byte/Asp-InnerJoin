@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\custom\\utilizades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\custom\\utilizades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -25,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\custom\\utilizades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\custom\\utilizades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|d:\\cursosrealizados\\github\\asp-innerjoin\\asp-innerjoin\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10828CB8-063C-407F-B92E-32486CE6638E}|Asp-InnerJoin\\Asp-InnerJoin.csproj|solutionrelative:asp-innerjoin\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,59 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioEntity.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:56:12.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccesoController.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\AccesoController.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Controllers\\AccesoController.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\AccesoController.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Controllers\\AccesoController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:55:31.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\appsettings.json",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
-              "RelativeToolTip": "Asp-InnerJoin\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-20T16:53:10.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
-              "RelativeDocumentMoniker": "Asp-InnerJoin\\Program.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
-              "RelativeToolTip": "Asp-InnerJoin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:53:09.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Asp-InnerJoin\\WeatherForecast.cs",
@@ -110,20 +66,98 @@
               "RelativeToolTip": "Asp-InnerJoin\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:53:09.007Z",
+              "WhenOpened": "2025-02-20T22:44:40.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "UsuarioEntity.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\UsuarioEntity.cs",
+              "RelativeToolTip": "Asp-InnerJoin\\Models\\UsuarioEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T22:37:58.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Program.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Program.cs",
+              "RelativeToolTip": "Asp-InnerJoin\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T22:36:04.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\appsettings.json",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\appsettings.json",
+              "RelativeToolTip": "Asp-InnerJoin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T04:28:41.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Utilizades.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Custom\\Utilizades.cs",
               "RelativeDocumentMoniker": "Asp-InnerJoin\\Custom\\Utilizades.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Custom\\Utilizades.cs",
               "RelativeToolTip": "Asp-InnerJoin\\Custom\\Utilizades.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwDgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:34:57.542Z",
+              "WhenOpened": "2025-02-21T04:28:07.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Asp-InnerJoin\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T04:22:27.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Controllers\\AccesoController.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "Asp-InnerJoin\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T04:20:44.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Asp-InnerJoin\\Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\Asp-InnerJoin\\Asp-InnerJoin\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Asp-InnerJoin\\Models\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T04:20:39.088Z",
               "EditorCaption": ""
             }
           ]

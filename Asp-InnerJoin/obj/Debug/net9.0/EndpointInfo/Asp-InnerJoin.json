@@ -5,6 +5,68 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Acceso/Registrarse": {
+      "post": {
+        "tags": [
+          "Acceso"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Acceso/Login": {
+      "post": {
+        "tags": [
+          "Acceso"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Producto": {
       "get": {
         "tags": [
@@ -388,26 +450,40 @@
   },
   "components": {
     "schemas": {
-      "ProductoEntity": {
+      "LoginDTO": {
         "type": "object",
         "properties": {
-          "iD_PRODUCTO": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "proD_NOMBRE": {
+          "email": {
             "type": "string",
             "nullable": true
           },
-          "proD_PRECIO": {
+          "clave": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoEntity": {
+        "type": "object",
+        "properties": {
+          "idProducto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "precioPRoducto": {
             "type": "number",
             "format": "double"
           },
-          "proD_FECHA_CREACION": {
+          "fechaCreacion": {
             "type": "string",
             "format": "date-time"
           },
-          "iD_USUARIO": {
+          "idUsuarioProducto": {
             "type": "integer",
             "format": "int32"
           },
@@ -417,14 +493,36 @@
         },
         "additionalProperties": false
       },
+      "RegistrarseDTO": {
+        "type": "object",
+        "properties": {
+          "nombreUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "claveUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRolUsuario": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "RolEntity": {
         "type": "object",
         "properties": {
-          "iD_ROL": {
+          "idRol": {
             "type": "integer",
             "format": "int32"
           },
-          "roL_NOMBRE": {
+          "nombreRol": {
             "type": "string",
             "nullable": true
           },
@@ -441,23 +539,27 @@
       "UsuarioEntity": {
         "type": "object",
         "properties": {
-          "iD_USUARIO": {
+          "idUsuario": {
             "type": "integer",
             "format": "int32"
           },
-          "usU_NOMBRE": {
+          "nombreUsuario": {
             "type": "string",
             "nullable": true
           },
-          "usU_EMAIL": {
+          "emailUsuario": {
             "type": "string",
             "nullable": true
           },
-          "usU_FECHA_REGISTRO": {
+          "fechaRegistro": {
             "type": "string",
             "format": "date-time"
           },
-          "iD_ROL": {
+          "claveUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRolUsuario": {
             "type": "integer",
             "format": "int32"
           },

@@ -1,5 +1,6 @@
 ﻿using Asp_InnerJoin.Context;
 using Asp_InnerJoin.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ namespace Asp_InnerJoin.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Guest")]
     public class ProductoController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -34,7 +36,7 @@ namespace Asp_InnerJoin.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProducto(int id, ProductoEntity producto)
         {
-            if (id != producto.ID_PRODUCTO)
+            if (id != producto.IdProducto)
             {
                 return BadRequest();
             }
@@ -61,7 +63,7 @@ namespace Asp_InnerJoin.Controllers
         {
             _context.Productos.Add(producto);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetProducto", new { id = producto.ID_PRODUCTO }, producto);
+            return CreatedAtAction("GetProducto", new { id = producto.IdProducto }, producto);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProducto(int id)
@@ -77,7 +79,7 @@ namespace Asp_InnerJoin.Controllers
         }
         private bool ProductoExists(int id)
         {
-            return _context.Productos.Any(e => e.ID_PRODUCTO == id);
+            return _context.Productos.Any(e => e.IdProducto == id);
         }
     }
 }

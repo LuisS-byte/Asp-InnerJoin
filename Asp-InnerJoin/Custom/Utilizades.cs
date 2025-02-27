@@ -37,11 +37,11 @@ namespace Asp_InnerJoin.Custom
         {
             var userClaims = new[]
             {
-                new Claim(ClaimTypes.Name, usuario.USU_NOMBRE),
-                new Claim(ClaimTypes.Email, usuario.USU_EMAIL),
-                new Claim(ClaimTypes.Role, usuario.Rol.ROL_NOMBRE)
+                new Claim(ClaimTypes.Name, usuario.NombreUsuario),
+                new Claim(ClaimTypes.Email, usuario.EmailUsuario),
+                new Claim(ClaimTypes.Role, usuario.Rol.NombreRol)
             };
-            var llavasecreta = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:key"]));
+            var llavasecreta = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
             //espesificar el detalle del token
             var credentials = new SigningCredentials(llavasecreta, SecurityAlgorithms.HmacSha256Signature);
             //crear detalle del token

@@ -1,5 +1,6 @@
 ﻿using Asp_InnerJoin.Context;
 using Asp_InnerJoin.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ namespace Asp_InnerJoin.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class Producto2Controller : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -36,7 +38,7 @@ namespace Asp_InnerJoin.Controllers
             */
 
             var usuarios = await _context.Productos
-                .Where(u => u.PROD_NOMBRE == nombre)
+                .Where(u => u.NombreProducto == nombre)
                 .ToListAsync();
 
             return usuarios;
@@ -70,7 +72,7 @@ namespace Asp_InnerJoin.Controllers
             */
 
             var productosPorUsuario = await _context.Productos
-                .GroupBy(p => p.ID_USUARIO)
+                .GroupBy(p => p.IdUsuarioProducto)
                 .Select(g => new
                 {
                     UsuarioId = g.Key,

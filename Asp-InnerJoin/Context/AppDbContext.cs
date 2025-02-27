@@ -14,6 +14,7 @@ namespace Asp_InnerJoin.Context
         public DbSet<UsuarioEntity> Usuarios { get; set; }
         public DbSet<ProductoEntity> Productos { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -21,9 +22,9 @@ namespace Asp_InnerJoin.Context
             // Configuración de RolEntity
             modelBuilder.Entity<RolEntity>(entity =>
             {
-                entity.HasKey(r => r.ID_ROL);
-                entity.Property(r => r.ID_ROL).ValueGeneratedOnAdd().UseIdentityColumn();
-                entity.Property(r => r.ROL_NOMBRE)
+                entity.HasKey(r => r.IdRol);
+                entity.Property(r => r.IdRol).ValueGeneratedOnAdd().UseIdentityColumn();
+                entity.Property(r => r.NombreRol)
                     .IsRequired()
                     .HasMaxLength(50);
             });
@@ -31,21 +32,24 @@ namespace Asp_InnerJoin.Context
             // Configuración de UsuarioEntity
             modelBuilder.Entity<UsuarioEntity>(entity =>
             {
-                entity.HasKey(u => u.ID_USUARIO);
-                entity.Property(r => r.ID_USUARIO).ValueGeneratedOnAdd().UseIdentityColumn();
-                entity.Property(u => u.USU_NOMBRE)
+                entity.HasKey(u => u.IdUsuario);
+                entity.Property(r => r.IdUsuario).ValueGeneratedOnAdd().UseIdentityColumn();
+                entity.Property(u => u.NombreUsuario)
                     .IsRequired()
                     .HasMaxLength(100);
-                entity.Property(u => u.USU_EMAIL)
+                entity.Property(u => u.EmailUsuario)
                     .IsRequired()
                     .HasMaxLength(100);
-                entity.Property(u => u.USU_FECHA_REGISTRO)
+                entity.HasIndex(e => e.EmailUsuario)
+                .IsUnique();
+                entity.Property(u => u.FechaRegistro)
                     .HasDefaultValueSql("GETDATE()");
+                entity.Property(u => u.IdRolUsuario).HasDefaultValue(3);
 
                 // Relación con RolEntity
                 entity.HasOne(u => u.Rol)
                     .WithMany(r => r.Usuarios)
-                    .HasForeignKey(u => u.ID_ROL);
+                    .HasForeignKey(u => u.IdRolUsuario);
 
 
 
@@ -62,20 +66,20 @@ namespace Asp_InnerJoin.Context
             // Configuración de ProductoEntity
             modelBuilder.Entity<ProductoEntity>(entity =>
             {
-                entity.HasKey(p => p.ID_PRODUCTO);
-                entity.Property(p => p.ID_PRODUCTO).ValueGeneratedOnAdd().UseIdentityColumn();
-                entity.Property(p => p.PROD_NOMBRE)
+                entity.HasKey(p => p.IdProducto);
+                entity.Property(p => p.IdProducto).ValueGeneratedOnAdd().UseIdentityColumn();
+                entity.Property(p => p.NombreProducto)
                     .IsRequired()
                     .HasMaxLength(100);
-                entity.Property(p => p.PROD_PRECIO)
+                entity.Property(p => p.PrecioPRoducto)
                     .HasColumnType("decimal(18,2)");
-                entity.Property(p => p.PROD_FECHA_CREACION)
+                entity.Property(p => p.FechaCreacion)
                     .HasDefaultValueSql("GETDATE()");
 
                 // Relación con UsuarioEntity
                 entity.HasOne(p => p.Usuario)
                     .WithMany()
-                    .HasForeignKey(p => p.ID_USUARIO);
+                    .HasForeignKey(p => p.IdUsuarioProducto);
             });
         }
     }

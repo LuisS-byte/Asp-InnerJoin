@@ -4,8 +4,8 @@ namespace Asp_InnerJoin.Models
 {
     public class RolEntity
     {
-        public int ID_ROL { get; set; }
-        public string ROL_NOMBRE { get; set; }
+        public int IdRol { get; set; }
+        public string NombreRol { get; set; }
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public virtual ICollection<UsuarioEntity> Usuarios { get; set; }
     }

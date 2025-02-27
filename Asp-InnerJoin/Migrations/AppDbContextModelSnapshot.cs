@@ -24,82 +24,91 @@ namespace Asp_InnerJoin.Migrations
 
             modelBuilder.Entity("Asp_InnerJoin.Models.ProductoEntity", b =>
                 {
-                    b.Property<int>("ID_PRODUCTO")
+                    b.Property<int>("IdProducto")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_PRODUCTO"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProducto"));
 
-                    b.Property<int>("ID_USUARIO")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("PROD_FECHA_CREACION")
+                    b.Property<DateTime>("FechaCreacion")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETDATE()");
 
-                    b.Property<string>("PROD_NOMBRE")
+                    b.Property<int>("IdUsuarioProducto")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NombreProducto")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<decimal>("PROD_PRECIO")
+                    b.Property<decimal>("PrecioPRoducto")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("ID_PRODUCTO");
+                    b.HasKey("IdProducto");
 
-                    b.HasIndex("ID_USUARIO");
+                    b.HasIndex("IdUsuarioProducto");
 
                     b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("Asp_InnerJoin.Models.RolEntity", b =>
                 {
-                    b.Property<int>("ID_ROL")
+                    b.Property<int>("IdRol")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_ROL"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdRol"));
 
-                    b.Property<string>("ROL_NOMBRE")
+                    b.Property<string>("NombreRol")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("ID_ROL");
+                    b.HasKey("IdRol");
 
                     b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("Asp_InnerJoin.Models.UsuarioEntity", b =>
                 {
-                    b.Property<int>("ID_USUARIO")
+                    b.Property<int>("IdUsuario")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_USUARIO"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUsuario"));
 
-                    b.Property<int>("ID_ROL")
-                        .HasColumnType("int");
+                    b.Property<string>("ClaveUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("USU_EMAIL")
+                    b.Property<string>("EmailUsuario")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<DateTime>("USU_FECHA_REGISTRO")
+                    b.Property<DateTime>("FechaRegistro")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETDATE()");
 
-                    b.Property<string>("USU_NOMBRE")
+                    b.Property<int>("IdRolUsuario")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(3);
+
+                    b.Property<string>("NombreUsuario")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("ID_USUARIO");
+                    b.HasKey("IdUsuario");
 
-                    b.HasIndex("ID_ROL");
+                    b.HasIndex("EmailUsuario")
+                        .IsUnique();
+
+                    b.HasIndex("IdRolUsuario");
 
                     b.ToTable("Usuarios");
                 });
@@ -108,7 +117,7 @@ namespace Asp_InnerJoin.Migrations
                 {
                     b.HasOne("Asp_InnerJoin.Models.UsuarioEntity", "Usuario")
                         .WithMany()
-                        .HasForeignKey("ID_USUARIO")
+                        .HasForeignKey("IdUsuarioProducto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -119,7 +128,7 @@ namespace Asp_InnerJoin.Migrations
                 {
                     b.HasOne("Asp_InnerJoin.Models.RolEntity", "Rol")
                         .WithMany("Usuarios")
-                        .HasForeignKey("ID_ROL")
+                        .HasForeignKey("IdRolUsuario")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
