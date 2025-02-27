@@ -51,7 +51,7 @@ namespace Asp_InnerJoin.Controllers
             INNER JOIN Usuarios u ON p.UsuarioId = u.UsuarioId
             */
 
-            var productosConUsuario = (from p in _context.Productos
+            var productosConUsuario = await (from p in _context.Productos
                                        join u in _context.Usuarios
                                        on p.ID_USUARIO equals u.ID_USUARIO
                                        select new
@@ -60,7 +60,7 @@ namespace Asp_InnerJoin.Controllers
                                            NombreProducto = p.PROD_NOMBRE,
                                            Usuario = u.USU_NOMBRE
                                        }
-                                       ).ToList();
+                                       ).ToListAsync();
             return Ok(productosConUsuario);
         }
 
@@ -85,5 +85,15 @@ namespace Asp_InnerJoin.Controllers
 
             return Ok(productosPorUsuario);
         }
+
+        [HttpPost]
+        [Route("Crear")]
+        public async Task<ActionResult<ProductoEntity>> Crear(ProductoEntity producto)
+        {
+            _context.Productos.Add(producto);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("GetProducto", new { id = producto.ID_PRODUCTO }, producto);
+        }
+
     }
 }

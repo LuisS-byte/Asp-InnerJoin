@@ -24,12 +24,12 @@ namespace Asp_InnerJoin.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductoEntity>> GetProducto(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
+            var producto = (from p in _context.Productos where p.ID_USUARIO == id select p).ToList();
             if (producto == null)
             {
                 return NotFound();
             }
-            return producto;
+            return Ok(producto);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProducto(int id, ProductoEntity producto)

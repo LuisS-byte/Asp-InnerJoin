@@ -110,6 +110,32 @@
   },
   {
     "ContainingType": "Asp_InnerJoin.Controllers.Producto2Controller",
+    "Method": "Crear",
+    "RelativePath": "api/Producto2/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Asp_InnerJoin.Models.ProductoEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Asp_InnerJoin.Models.ProductoEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Asp_InnerJoin.Controllers.Producto2Controller",
     "Method": "FiltradoNombre",
     "RelativePath": "api/Producto2/FiltradoNombre/{nombre}",
     "HttpMethod": "GET",
