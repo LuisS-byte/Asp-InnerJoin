@@ -157,3 +157,4 @@ D:\CursosRealizados\GitHub\Asp-InnerJoin\Asp-InnerJoin\bin\Debug\net9.0\runtimes
 D:\CursosRealizados\GitHub\Asp-InnerJoin\Asp-InnerJoin\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\CursosRealizados\GitHub\Asp-InnerJoin\Asp-InnerJoin\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\CursosRealizados\GitHub\Asp-InnerJoin\Asp-InnerJoin\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\CursosRealizados\GitHub\Asp-InnerJoin\Asp-InnerJoin\obj\Debug\net9.0\Asp-InnerJoin.sourcelink.json

@@ -35,9 +35,8 @@ namespace Asp_InnerJoin.Controllers
             WHERE PROD_NOMBRE = 'nombre'
             */
 
-            var usuarios = await _context.Productos
-                .Where(u => u.PROD_NOMBRE == nombre)
-                .ToListAsync();
+            var usuarios = (from p in _context.Productos where p.PROD_NOMBRE == nombre
+                            select p).ToList();
 
             return usuarios;
         }
@@ -52,11 +51,17 @@ namespace Asp_InnerJoin.Controllers
             INNER JOIN Usuarios u ON p.UsuarioId = u.UsuarioId
             */
 
-            var productosConUsuario = await _context.Productos
-                .Include(p => p.Usuario)
-                .ToListAsync();
-
-            return productosConUsuario;
+            var productosConUsuario = (from p in _context.Productos
+                                       join u in _context.Usuarios
+                                       on p.ID_USUARIO equals u.ID_USUARIO
+                                       select new
+                                       {
+                                           Id_Producto = p.ID_PRODUCTO,
+                                           NombreProducto = p.PROD_NOMBRE,
+                                           Usuario = u.USU_NOMBRE
+                                       }
+                                       ).ToList();
+            return Ok(productosConUsuario);
         }
 
         [HttpGet]
